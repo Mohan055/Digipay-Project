@@ -1,0 +1,56 @@
+{% extends "partials/dashboard-base.html" %}
+{% block content %}
+<style>
+    .box1 {
+        position: relative;
+        left: 350px;
+        top: 200px;
+    }
+</style>
+    <div class="box1" id="transactions-table">
+        <h4><b>Transactions :</b></h4>
+        <button type="submit">Transfer</button> <button onclick="rec" type="submit">Received</button>
+        <table border="1px solid black" cellpadding="10">
+            <thead>
+                <tr>
+                    <th>Sender</th>
+                    <th>Amount</th>
+                    <th>Date</th>
+                    <th>Status</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for transaction in request_receiver_transaction %}
+                    <tr>
+                        <td>{{ transaction.sender }}</td>
+                        <td>{{ transaction.amount }}</td>
+                        <td>{{ transaction.date }}</td>
+                        <td>{{ transaction.status }}</td>
+                        <td>
+                            <form action="" method="post">
+                                {% csrf_token %}
+                                <button type="submit">Send</button>
+                            </form>
+                        </td>
+                    </tr>
+                {% endfor %}
+                
+                {% for transaction in request_sender_transaction %}
+                <tr>
+                    <td>{{ transaction.sender }}</td>
+                    <td>{{ transaction.amount }}</td>
+                    <td>{{ transaction.date }}</td>
+                    <td>{{ transaction.status }}</td>
+                    <td>
+                        <form action="" method="post">
+                            {% csrf_token %}
+                            <button type="submit">Send</button>
+                        </form>
+                    </td>
+                </tr>
+            {% endfor %}
+            </tbody>
+        </table>            
+    </div>
+{% endblock %}

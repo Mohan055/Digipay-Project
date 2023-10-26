@@ -1,0 +1,49 @@
+{% extends "partials/dashboard-base.html" %}
+{% load static %}
+{% load humanize %}
+{% block content %}
+    <!-- Dashboard Section start -->
+    <section class="dashboard-section body-collapse pay step step-2">
+        <div class="overlay pt-120">
+            <div class="container-fruid">
+                <div class="main-content">
+
+                    <div class="choose-recipient">
+                        <div class="step-area">
+                            <h5>Request Amount</h5>
+                        </div>
+                        <div class="user-select">
+                            <div class="single-user">
+                                <div class="left d-flex align-items-center">
+                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <form action="" method="POST">
+                        {% csrf_token %}
+                        <div class="send-banance"> 
+                            <span class="mdr">Amount</span>
+                            <div class="input-area">
+                                <input class="xxlr"  placeholder="" type="number" name="amount-send" id="amount-send">
+                            </div>
+                        
+                        </div>
+                        <div class="send-banance pt-0 mt-0">
+                            <span class="mdr">Description</span>
+                            <div class="input-area">
+                                <input class="xxlr"  type="text" name="description">
+                                
+                            </div>
+                        </div>
+                        <div class="footer-area mt-40">
+                            <button type="submit" style="padding: 10px 30px; border-radius: 10px; background: rgb(98, 0, 255); color: #fff;" class="active">Next</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Dashboard Section end -->
+
+    {% endblock content %}
