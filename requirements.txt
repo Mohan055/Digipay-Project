@@ -12,8 +12,8 @@ guid==0.2.1
 Pillow==10.0.0
 psycopg==3.1.10
 psycopg2==2.9.7
-pyscopg2==66.0.2
 psycopg2-binary==2.9.9
+pyscopg2==66.0.2
 pytz==2023.3.post1
 shortuuid==1.0.11
 six==1.16.0
