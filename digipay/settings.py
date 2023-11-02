@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-+w*0c^zo18m)i9+l#9b7ow#d)o7r%6*wacaq6n24*s9pwfj29n
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['.vercel.app','.now.sh','127.0.0.1','localhost']
+ALLOWED_HOSTS = ['digipay-project.vercel.app','.now.sh','127.0.0.1','localhost']
 
 
 # Application definition
