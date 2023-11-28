@@ -1,0 +1,22 @@
+Description: 
+-Digipayment are transactions that take place via digital or online modes, with no physical exchange of money involved. This means that both parties, the payer and the payee, use electronic 
+mediums to exchange money.
+
+The Government of India has been undertaking several measures to promote and encourage digital payments in the country. As part of the ‘Digital India’ campaign, the government has an aim to create a ‘digitally empowered’ economy that is ‘Faceless, Paperless, Cashless’. There are various types and methods of digital payments.
+
+Please note that digipayment can take place on the internet as well as on physical premises. For example, if you buy something from Amazon and pay for it via UPI, it qualifies as a digital payment. Similarly, if you purchase something from your local Kirana store and choose to pay via UPI instead of handing over cash, that also is a digital payment.
+
+->  As of now living in digital world no need of using paper everything is used digital media for the amount transactions
+-> This project is more secure via digital mode rather than the virtual mode
+->  User can check there transactions list and the received requests 
+
+Software requirement:-
+1. Front end - HTML, CSS ,Bootstrap and Javascript 
+2. Backend- Python 3.7 equivalent software 
+3. Framework -  Django 
+3. Database - Admin panel and Postgresql 
+
+Hardware requirement:-
+1. Laptop / Desktop
+2. Minimum 4 GB of Ram
+3. Minimum  1 TB hardisk
