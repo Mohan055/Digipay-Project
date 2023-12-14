@@ -1,22 +1,18 @@
-Description: 
--Digipayment are transactions that take place via digital or online modes, with no physical exchange of money involved. This means that both parties, the payer and the payee, use electronic 
-mediums to exchange money.
+   Description: 
 
-The Government of India has been undertaking several measures to promote and encourage digital payments in the country. As part of the ‘Digital India’ campaign, the government has an aim to create a ‘digitally empowered’ economy that is ‘Faceless, Paperless, Cashless’. There are various types and methods of digital payments.
+In today's digital world, transactions conducted through digital or online means without the physical exchange of money are known as digipayments. This method involves both the payer and the payee utilizing electronic mediums to exchange funds securely.
+The Government of India has implemented numerous initiatives to promote and foster digital payments as part of the 'Digital India' campaign. The objective is to establish a 'digitally empowered' economy that is 'Faceless, Paperless, Cashless.' Various types and methods of digital payments exist, encompassing both online transactions and those carried out in physical locations.
+For instance, making a purchase on Amazon and paying via UPI qualifies as a digital payment, just as opting to pay for items at a local Kirana store using UPI instead of cash does.
 
-Please note that digipayment can take place on the internet as well as on physical premises. For example, if you buy something from Amazon and pay for it via UPI, it qualifies as a digital payment. Similarly, if you purchase something from your local Kirana store and choose to pay via UPI instead of handing over cash, that also is a digital payment.
+   Key Features :
 
-->  As of now living in digital world no need of using paper everything is used digital media for the amount transactions
--> This project is more secure via digital mode rather than the virtual mode
-->  User can check there transactions list and the received requests 
+Paperless Transactions: In the digital realm, the reliance on paper is eliminated, enabling seamless transactions through digital mediums.
+Enhanced Security: Leveraging digital modes ensures heightened security compared to traditional virtual methods.
+Transaction History: Users can access their transaction records and view received requests, empowering them with transparent insights into their financial activities.
 
-Software requirement:-
-1. Front end - HTML, CSS ,Bootstrap and Javascript 
-2. Backend- Python 3.7 equivalent software 
-3. Framework -  Django 
-3. Database - Admin panel and Postgresql 
+   Technologies Utilized::
 
-Hardware requirement:-
-1. Laptop / Desktop
-2. Minimum 4 GB of Ram
-3. Minimum  1 TB hardisk
+Front end - HTML, CSS ,Bootstrap and JavaScript  
+Backend- Python 3.7 equivalent software 
+Framework - Django
+Database - Admin panel and PostgreSQL
